@@ -1,0 +1,7 @@
+PHP: Eirikur
+
+Dokumentation och rapporter: Stian, Eirik
+
+Design: Tobias, Tanja
+
+HTML och CSS: Iben, Tobias, Tanja
