@@ -1,0 +1,23 @@
+body {
+background-color: rgb(255, 255, 255);
+height: 200%;
+background: url(../img/bakgrunn.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+		background-size: cover;
+}
+.dude {
+	padding-top: 10%;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding-bottom: 60%;
+	max-height: 100%;
+	position: relative;
+}
+
+.minwidth {
+	max-width: 
+}
+
+.noe {
+	height: 600px;
+	width: 600px;
+}
