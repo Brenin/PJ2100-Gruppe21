@@ -1,0 +1,4 @@
+Gul:		ffd76c
+Peach:		ff5b59
+blå:		00b7f0
+grønn/turkis:	2ad2a8
