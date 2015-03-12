@@ -25,7 +25,7 @@ class User{
 			}
 		}
 		else {
-			echo <div class="jumbatron"><h1>"Please enter username and password"</h1></div>;
+			echo "Please enter username and password";
 		}
 	}
 
