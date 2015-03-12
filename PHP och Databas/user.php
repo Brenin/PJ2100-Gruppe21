@@ -11,10 +11,10 @@ class User{
 		$this->db = $this->db->dbConnect();
 	}
 
-	public function westerdals($Student_ID, $Password) {
-		if(!empty($Student_ID) && !empty($Password)) {
-			$st = $this->db->prepare("select * from user where Student_ID=? and Password=?");
-			$st->bindParam(1, $Student_ID);
+	public function westerdals($Email, $Password) {
+		if(!empty($Email) && !empty($Password)) {
+			$st = $this->db->prepare("select * from user where Email=? and Password=?");
+			$st->bindParam(1, $Email);
 			$st->bindParam(2, $Password);
 			$st->execute();
 

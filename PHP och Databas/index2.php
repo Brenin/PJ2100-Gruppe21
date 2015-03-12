@@ -3,11 +3,11 @@
 	include_once("user.php");
 
 	if (isset($_POST["submit"])) {
-		$Student_ID = $_POST["user"];
+		$Email = $_POST["user"];
 		$Password = $_POST["pass"];
 
 		$object = new User();
-		$object->westerdals($Student_ID, $Password);
+		$object->westerdals($Email, $Password);
 	}
 ?>
 
