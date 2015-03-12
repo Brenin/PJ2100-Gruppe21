@@ -3,7 +3,7 @@
 include_once('User.php');
 
 if(isset($_POST['submit'])) {
-	$name = $_POST['studentnummer'];
+	$name = $_POST['email'];
 	$pass = $_POST['passord'];
 
 	$object = new User();
@@ -38,7 +38,7 @@ if(isset($_POST['submit'])) {
 		<form action="login.php" method="post">
 		    <div class="form-group">
 		        <label for="inputEmail" style="color:white">Student Epost</label>
-		        <input type="text" class="form-control" id="inputEmail" placeholder="Studentnummer" name="studentnummer">
+		        <input type="text" class="form-control" id="inputEmail" placeholder="Email" name="email">
 		    </div>
 		    <div class="form-group">
 		        <label for="inputPassword" style="color:white">Passord</label>
