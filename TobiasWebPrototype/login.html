@@ -1,3 +1,16 @@
+<?php
+
+include_once('User.php');
+
+if(isset($_POST['submit'])) {
+	$name = $_POST['studentnummer'];
+	$pass = $_POST['passord'];
+
+	$object = new User();
+	$object->Login($name, $pass);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,25 +35,20 @@
 	<div class="container">
 
 
-		<form>
+		<form action="login.php" method="post">
 		    <div class="form-group">
-		        <label for="inputEmail">Student Epost</label>
-		        <input type="email" class="form-control" id="inputEmail" placeholder="Epost">
+		        <label for="inputEmail" style="color:white">Student Epost</label>
+		        <input type="text" class="form-control" id="inputEmail" placeholder="Studentnummer" name="studentnummer">
 		    </div>
 		    <div class="form-group">
-		        <label for="inputPassword">Passord</label>
-		        <input type="password" class="form-control" id="inputPassword" placeholder="Passord">
+		        <label for="inputPassword" style="color:white">Passord</label>
+		        <input type="password" class="form-control" id="inputPassword" placeholder="Passord" name="passord">
 		    </div>
-		    <div class="checkbox">
-		        <label><input type="checkbox"> Husk Meg!</label>
-		    </div>
+		   
 		    
-		    <button type="submit" class="btn btn-primary" href="velgDato.html">Log In</button>
+		    <input type="submit" class="btn btn-primary" value="submit" href="velgDato.html">Log In</input>
 
 		</form>
-
-
-	    <a href="velgDato.html" class="btn btn-info btn-lg">NESTE SIDE</a>
 	</div>
 </div>
 
