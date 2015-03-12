@@ -1,32 +1,35 @@
 <?php
 
-include_once('connection.php')
+include_once("connection.php");
 
-class User {
+class User{
 
 	private $db;
 
-	public function __construct() {
+	public function __construct(){
 		$this->db = new Connection();
-		$this->db =$this->db->dbConnect();
+		$this->db = $this->db->dbConnect();
 	}
 
-	public function Login($name, $pass) {
-		if(!empty($name) && !empty($pass)) {
-			$st = $this->db->prepare("select * from login where name = ? and pass = ?;");
-			$st->bindParam(1, $name);
-			$st->bindParam(2, $pass);
+	public function westerdals($Email, $Password) {
+		if(!empty($Email) && !empty($Password)) {
+			$st = $this->db->prepare("select * from user where Email=? and Password=?");
+			$st->bindParam(1, $Email);
+			$st->bindParam(2, $Password);
 			$st->execute();
 
 			if($st->rowCount() == 1) {
-				echo "User verified, access granted.";
+				echo "User verified, Access granted.";
 			} else {
-				echo "Incorrect username or password";
+				echo "Incorrect username or Password.";
 			}
-
-		} else {
-			echo "Tast inn brukernavn og passord";
+		}
+		else {
+			echo <div class="jumbatron"><h1>"Please enter username and password"</h1></div>;
 		}
 	}
 
+
 }
+
+?>
