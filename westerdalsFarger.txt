@@ -2,3 +2,10 @@ Gul:		ffd76c
 Peach:		ff5b59
 blå:		00b7f0
 grønn/turkis:	2ad2a8
+lilla:		8b4a81
+rød:		ff5b59
+Inne i hvit boks med tekst: f1f2eb
+utenfor hvit boks uten tekst (hele siden): fdfef8
+boks border:	000000
+
+boks størrelse:	412 x 356
