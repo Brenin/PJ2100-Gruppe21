@@ -31,7 +31,7 @@
 		<form method="post" action="index2.php">
 			Username: <input type="text" class="form-control" id="inputEmail" placeholder="Epost" name="user">
 			Password: <input type="password" class="form-control" id="inputPassword" placeholder="Passord" name="pass">
-			<input type="submit" class="btn btn-primary" value="submit" name="submit">Log In</input>
+			<input type="submit" class="btn btn-primary" value="submit" name="submit"></input>
 	</body>
 	
 </html>
