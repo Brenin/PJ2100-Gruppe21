@@ -7,7 +7,7 @@
 		$Password = $_POST["pass"];
 
 		$object = new User();
-		$object->oliibe14($Email, $Password);
+		$object = oliibe14($Email, $Password);
 	}
 ?>
 
@@ -31,26 +31,10 @@
 
 <body>
 
-<!--<div class="dude">
-	<div class="container">
--->
-
-		<form action="login.html" method="post">
-		    <div class="form-group">
-		        <label for="inputEmail" style="color:white">Student Epost</label>
-		        <input type="text" class="form-control" id="inputEmail" placeholder="Email" name="user">
-		    </div>
-		    <div class="form-group">
-		        <label for="inputPassword" style="color:white">Passord</label>
-		        <input type="password" class="form-control" id="inputPassword" placeholder="Passord" name="pass">
-		    </div>
-		   
-		    
-		    <input type="submit" class="btn btn-primary" value="submit" href="velgDato.html" name="submit">Log In</input>
-
-		</form>
-<!--	</div>
-</div>-->
+		<form method="post" action="login.html">
+			Username: <input type="text" class="form-control" id="inputEmail" placeholder="Epost" name="user">
+			Password: <input type="password" class="form-control" id="inputPassword" placeholder="Passord" name="pass">
+			<input type="submit" class="btn btn-primary" value="submit" name="submit">Log In</input>
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="js/bootstrap-datepicker.js"></script>

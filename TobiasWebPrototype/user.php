@@ -20,6 +20,7 @@ class User{
 
 			if($st->rowCount() == 1) {
 				echo "User verified, Access granted.";
+				header("Location:romOversikt.html"); 
 			} else {
 				echo "Incorrect username or Password.";
 			}
