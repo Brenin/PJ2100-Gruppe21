@@ -42,13 +42,64 @@ background-color: #fdfdf8;
 	background-color: #2ad2a8 !important;
 }
 
-table {
-	background-color: #fdfdf8;
+th {
+
 }
 
 td.success:hover {
 	border-radius: 5px;
 	background: url(../img/plus.png) no-repeat right;
+}
+
+
+.nr11 {
+	float: left;
+	background-color: #ffd76c;
+	height: 200px;
+	width: 220px;
+}
+.nr12 {
+	float: left;
+	background-color: #ff5b59;
+	height: 200px;
+	width: 220px;
+}
+
+.nr13 {
+	float: left;
+	background-color: #00b7f0;
+	height: 200px;
+	width: 220px;
+}
+
+.nr21 {
+	float: left;
+	background-color: #2ad2a8;
+	height: 200px;
+	width: 220px;
+}
+
+.nr22 {
+	float: left;
+	background-color: #8b4a81;
+	height: 18%;
+	width: 18%;
+}
+
+.nr11:hover {
+	zoom: 1.1;
+}
+.nr12:hover {
+}
+
+.nr13:hover {
+}
+
+.nr21:hover {
+}
+
+.nr22:hover {
+
 }
 
 
