@@ -1,12 +1,12 @@
 Behovene som er beskrevet i “Foreløpige notater design og brukervennlighet” av Tanja, er grunnlaget for hvordan designet, interaksjonen og navigasjonen har blitt planlagt til prototypen av den endelige løsningen.
 
-Det er 4 sider som skal være med i prototypen, hvorav 3 har funksjoner. Dette er det minste antallet steg men kan ta for å fullføre en reservasjon med login og søkefunksjon.
+Det er 4 sider som skal være med i prototypen, hvorav 2 har funksjoner. Dette er det minste antallet steg men kan ta for å fullføre en reservasjon med login, søkefunksjon og valg av rom/dato.
 
 HTML koden består av:
-1 (index): Flere meta tags med ferdigskrevet CSS for et samkjørt og funksjonelt og utprøvd design.
+1 (index): Flere meta tags med ferdigskrevet CSS for et samkjørt, funksjonelt og ferdig utprøvd design.
 2 (index): En <form> som tar input fra bruker (studentnummer, passord) for login funksjon. Ved login sendes bruker til romOversikt.html hvor man får oversikt over rom som er ledig.
-3 (romOversikt): En rad gir brukeren mulighet til å velge dato som visningen av rom skal presentere. 
-4 (romOversikt): En tabell under viser oversikt over rommene på skolen, samt kolonner som definerer et tidsrom, hvor de korresponderende radene under viser enten “ledig”(grønn) eller “opptatt”(rød). Brukeren kan trykke på en grønn celle og dermed få muligheten til å booke valgt rom til valgt tid. 
+3 (romOversikt): To rader gir brukeren mulighet til å velge fra-til dato som visningen av rom skal presentere. 
+4 (romOversikt): En tabell under viser oversikt over rommene på skolen, samt kolonner som definerer et tidsrom, hvor de korresponderende radene under viser enten “ledig”(grønn) eller “opptatt”(rød). Brukeren kan trykke på en grønn celle og dermed få muligheten til å booke valgt rom til valgt tid. En plussknapp skal dukke opp ved :hover for å gi brukeren en klar forståelse av at reservasjon skjer gjennom å trykke på knappen.
 5 (romOversikt): En knapp med “bekreft” bekrefter valget brukeren har valgt og sender han videre til ferdig.html 
 6 (ferdig): Personen får en melding med bekreftelse på hvilket rom som er bestilt, når og med hvem.
 
