@@ -11,7 +11,7 @@ class User{
 		$this->db = $this->db->dbConnect();
 	}
 
-	public function westerdals($Email, $Password) {
+	public function oliibe14($Email, $Password) {
 		if(!empty($Email) && !empty($Password)) {
 			$st = $this->db->prepare("select * from user where Email=? and Password=?");
 			$st->bindParam(1, $Email);
