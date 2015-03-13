@@ -1,0 +1,54 @@
+body {
+  font-family: helvetica, sans-serif;
+  font-size: 1.5em;
+}
+#beskrivelse {
+ margin-left: 5%;
+}
+.spørsmål  {
+  background: #7EC59D;
+  color: white;
+  padding: 20px;
+  border: 3px solid black;
+  text-indent: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.svar {
+  display: none;
+  background: white;
+  border: 3px solid black;
+  padding: 50px;
+  background-color: #61B0CA;
+  margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+#booking {
+  position: absolute;
+  right: 30%;
+  margin: absolute;
+  margin-top: 50px;
+    margin-bottom: 10px;
+  border: 1px solid black;
+  box-shadow: 25%;
+  padding: 75px 125px 75px 125px;
+  background-color: #61B0CA;
+  color: black;
+  font-size: 1em;
+  text-align: center;
+    width: 500px;
+    height: 200px;
+    transition: width 2s, height 4s;
+    -webkit-transition: width 2s, height 4s;
+}
+span {
+    font-weight: bold;
+}
+
+#booking:hover {
+    width: 700px;
+    height: 500px;
+}
