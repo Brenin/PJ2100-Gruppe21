@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 12, 2015 at 09:19 AM
+-- Generation Time: Mar 13, 2015 at 09:55 AM
 -- Server version: 5.6.21
 -- PHP Version: 5.6.3
 
@@ -19,6 +19,22 @@ SET time_zone = "+00:00";
 --
 -- Database: `westerdals`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `administration`
+--
+
+CREATE TABLE IF NOT EXISTS `administration` (
+`ID` int(11) NOT NULL,
+  `First_Name` varchar(255) NOT NULL,
+  `Last_Name` varchar(255) NOT NULL,
+  `Email` varchar(255) NOT NULL,
+  `Phone` int(11) DEFAULT NULL,
+  `Password` varchar(255) NOT NULL,
+  `User_RIghts` enum('1','2','3','4','5') NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -88,6 +104,12 @@ INSERT INTO `user` (`Student_ID`, `First_Name`, `Last_Name`, `Email`, `Phone`, `
 --
 
 --
+-- Indexes for table `administration`
+--
+ALTER TABLE `administration`
+ ADD PRIMARY KEY (`ID`);
+
+--
 -- Indexes for table `rooms`
 --
 ALTER TABLE `rooms`
@@ -99,6 +121,15 @@ ALTER TABLE `rooms`
 ALTER TABLE `user`
  ADD PRIMARY KEY (`Student_ID`);
 
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `administration`
+--
+ALTER TABLE `administration`
+MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
