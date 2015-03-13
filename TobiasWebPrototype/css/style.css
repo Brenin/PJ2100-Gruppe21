@@ -1,10 +1,11 @@
-/*body {
+body {
 background-color: rgb(255, 255, 255);
 height: 200%;
 background: url(../img/bakgrunn.png) no-repeat center center fixed;
 -webkit-background-size: cover;
 		background-size: cover;
-} */
+background-color: #fdfdf8;
+}
 .dude {
 	padding-top: 10%;
 	background-color: rgba(0, 0, 0, 0.8);
@@ -21,3 +22,36 @@ background: url(../img/bakgrunn.png) no-repeat center center fixed;
 	height: 600px;
 	width: 600px;
 }
+
+.h1Midtstilt {
+	text-align: center;
+	color: rgb(60, 60, 60);
+}
+
+.midtstill {
+	margin-left: 10%;
+    margin-right: auto;
+    width: 90%;
+}
+
+.danger {
+	background-color: #fd7265 !important;
+}
+
+.success {
+	background-color: #2ad2a8 !important;
+}
+
+table {
+	background-color: #fdfdf8;
+}
+
+td.success:hover {
+	border-radius: 5px;
+	background: url(../img/plus.png) no-repeat right;
+}
+
+
+
+
+
