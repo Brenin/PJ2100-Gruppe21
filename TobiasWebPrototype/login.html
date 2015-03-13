@@ -7,7 +7,7 @@
 		$Password = $_POST["pass"];
 
 		$object = new User();
-		$object->westerdals($Email, $Password);
+		$object->oliibe14($Email, $Password);
 	}
 ?>
 
