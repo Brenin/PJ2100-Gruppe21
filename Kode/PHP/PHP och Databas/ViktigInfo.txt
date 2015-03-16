@@ -1,0 +1,8 @@
+Tror den här guiden kan bli värdefull utöver projektet för att 
+förklara lite mer angående php.
+
+https://www.youtube.com/watch?v=NnC0N7LJ9PI
+
+Vet inte om du har använt php förut men du behöver XAMPP och alla
+php filerna måste ligga i htdocs mappen för att kunna läsas
+som loalhost på webläsaren
