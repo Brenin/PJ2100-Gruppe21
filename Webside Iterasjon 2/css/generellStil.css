@@ -1,1 +1,37 @@
-//Navigasjonsbar til side 2, 3, 4 og 5 - login, personerOgProsjektor, datoOgTid
+*, body {
+	margin: 0;
+	padding: 0;
+	background-color: #fdfef8;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.tableHeader {
+	background-color: #f1f2eb;
+}
+
+.active {
+	background-color: #2ad2a8;
+}
+
+.danger {
+	background-color: #FA8072;
+}
+
+.success {
+	background-color: #90EE90;
+}
+
+td, th {
+  width: 4rem;
+  height: 2rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+th {
+  background: lightblue;
+  border-color: white;
+}
+body {
+  padding: 1rem;
+}
+
