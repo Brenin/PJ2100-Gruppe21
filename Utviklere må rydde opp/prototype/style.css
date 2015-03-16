@@ -1,0 +1,26 @@
+/*==========================================
+	Egenskaper for bakgrunnen
+==========================================*/
+body {
+	background-color: rgb(255, 255, 255);
+	height: 200%;
+	background: url(img/bakgrunn.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+			background-size: cover;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	height: 600px;
+	background-color: rgba(0,0,0, 0.8);
+	margin-top: 5%;
+}
+
+img {
+	margin-left: 20%;
+	margin-top: 5%;	
+}

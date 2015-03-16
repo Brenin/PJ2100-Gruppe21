@@ -1,0 +1,67 @@
+/*Gir hele innhldet på siden masse skrifttype og skriftstørrelse.*/
+body {
+  font-family: helvetica, sans-serif;
+  font-size: 1.5em;
+}
+/*Gir de beskrivende overskriftene til sidene margin-left på 5%, og gir siden et
+"innrykket" uttrykk, à la det Westerdals hjemmesidene også bruker.*/
+#beskrivelse {
+ margin-left: 5%;
+}
+/*Styler spørsmålsboksene. Margin à la Westerdals innrykk, fra venstre og høyre.*/
+.spørsmål  {
+  background: #7EC59D;
+  color: black;
+  padding: 20px;
+  border: 3px solid white;
+  text-indent: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*Styler svarsboksene. Margin à la Westerdals innrykk, fra venstre og høyre.*/
+.svar {
+    color: black;
+  display: none;
+  background: white;
+  border: 3px solid white;
+  padding: 50px;
+  background-color: #61B0CA;
+  margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+/*Bookingelement wrappet med en link til forsiden for booking.
+Hele elementet blir somen knapp pga. linken til html index-siden.*/
+#booking {
+  position: absolute;
+  right: 30%;
+  margin: absolute;
+  margin-top: 50px;
+    margin-bottom: 10px;
+  box-shadow: 25%;
+  padding: 75px 125px 75px 125px;
+  background-color: #61B0CA;
+  color: black;
+  font-size: 1em;
+  text-align: center;
+    width: 500px;
+    height: 200px;
+    transition: width 2s, height 4s;
+    -webkit-transition: width 2s, height 4s;
+}
+/*Spanelement som sørger for bold Q og A ikoner på siden
+slik at disse blir mer synlige.*/
+span {
+    font-weight: bold;
+}
+
+/*Ved hover forstørres bookingelementet for tydelighet over
+at elementet fungerer som en knapp til bruker for å komme seg
+direkte til bookingsiden.*/
+#booking:hover {
+    width: 700px;
+    height: 500px;
+}
