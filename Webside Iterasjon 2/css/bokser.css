@@ -1,6 +1,7 @@
 //Stilark for boksene som skal vises på sidene index, login, personerOgProsjektor og reservasjonsbekreftelse.
 //Definerer default utseende til divene som skal 
-.boks {
+.bokser {
     width: 412px;
     height: 356;
+    background-color: ff5b59;
 }
