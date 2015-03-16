@@ -3,6 +3,7 @@
 	padding: 0;
 	background-color: #fdfef8;
 	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 5em;
 }
 
 .tableHeader {
@@ -34,4 +35,3 @@ th {
 body {
   padding: 1rem;
 }
-
