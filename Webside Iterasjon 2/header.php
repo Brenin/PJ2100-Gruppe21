@@ -19,7 +19,6 @@ echo '<!DOCTYE html>
 	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
 
 	</head>
-<body>'
-;
+<body>';
 
 ?>
