@@ -9,3 +9,5 @@ utenfor hvit boks uten tekst (hele siden): fdfef8
 boks border:	000000
 
 boks størrelse:	412 x 356
+tre bokser side ved side (standardmål for desktop viewport): 1292 bredde
+margin på bokser: 14px bredde, 17px høyde
