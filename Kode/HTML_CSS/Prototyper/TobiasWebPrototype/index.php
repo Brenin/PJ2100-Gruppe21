@@ -27,7 +27,7 @@
 		<div class="dude">
 			<div class="container">
 			<div class="well">
-				<form method="post" action="index2.php">
+				<form method="post" action="index.php">
 					<h4>Username: <input type="text" class="form-control" id="inputEmail" placeholder="Epost" name="user"></h4>
 					<h4>Password: <input type="password" class="form-control" id="inputPassword" placeholder="Passord" name="pass"></h4>
 					<input type="submit" class="btn btn-primary" value="submit" name="submit">Log In</input>
