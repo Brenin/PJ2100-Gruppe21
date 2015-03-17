@@ -1,6 +1,6 @@
 <?php
 
-include_once("connection.php");
+include_once("loginPDO.php");
 
 class User{
 
@@ -19,8 +19,9 @@ class User{
 			$st->execute();
 
 			if($st->rowCount() == 1) {
-				echo "User verified, Access granted.";
-				header("Location:romOversikt.html"); 
+				session_start();
+				$_SESSION['logged_in'] = "1";
+				header("Location: romOversikt.php");
 			} else {
 				echo "Incorrect username or Password.";
 			}
