@@ -3,15 +3,15 @@
 	padding: 0;
 	background-color: #fdfef8;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 5em;
 }
 
 .tableHeader {
-	background-color: #f1f2eb;
+	background-color: #d3d4cd;
 }
 
 .active {
-	background-color: #2ad2a8;
+	background-color: #e7e7e1;
+	width: 5rem;
 }
 
 .danger {
@@ -22,16 +22,25 @@
 	background-color: #90EE90;
 }
 
-td, th {
-  width: 4rem;
-  height: 2rem;
-  border: 1px solid #ccc;
-  text-align: center;
+.container {
+	//MIDTSTILL DENNE
 }
+
+#kalender {
+
+}
+
 th {
-  background: lightblue;
-  border-color: white;
+	background-color: #e7e7e1;
+	border-radius: 5px;
 }
-body {
-  padding: 1rem;
+
+td {
+  width: 10rem;
+  height: 2rem;
+  border: 1px solid #fdfef8;
+  text-align: center;
+  border-radius: 5px;
+
 }
+
