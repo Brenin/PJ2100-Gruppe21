@@ -4,7 +4,7 @@
    <head>
       <meta charset="utf-8">
 
-      <!--  STILARK     -->
+      <!--        STILARK     -->
       <link rel="stylesheet" type="text/css" href="css/generellStil.css">
       <link rel="stylesheet" type="text/css" href="css/bokser.css">
       <link rel="stylesheet" type="text/css" href="css/index.css">
@@ -14,13 +14,36 @@
       <link rel="stylesheet" type="text/css" href="css/personerOgProsjektor.css">
       <link rel="stylesheet" type="text/css" href="css/reservasjonsbekreftelse.css">
 
-      <!--  FONTER      -->
+      <!--        FONTER      -->
       <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
 
    </head>
 <body>
 
+
+<!--      STATISK NAVIGASJONSBAR SOM INDIKERER HVILKET STEG I PROSESSEN MAN ER     -->
+<section class="statiskMeny">
+   <div class="navBar">
+
+      <!--        LINKER TIL HVER SIDE I PROSESSEN      -->
+      <ul class="topics">
+         <li><img src="bilder/logo.jpg" class="logo"></img></li>
+         <li><a href="login.html" class="loginFarge">Kalender</a></li>
+         <li><a href="sok.html" class="sokFarge">Søk</a></li>
+         <li><a href="kalender.html" class="kalenderFarge">Ledige</a></li>
+         <li><a href="ferdig.html" class="ferdigFarge">Bekreftelse</a></li>
+      </ul>
+      <hr>
+   </div>
+</section>
+
+
+<!--        "CONTAINER" FOR SAMMKJØRT STRUKTUR IGJENNOM SIDENE      -->
 <div class="container">
+<div class="wrapper">
+
+
+<!--        EGENSKAPER FOR KALENDERFUNKSJONEN        -->
    <section id="kalender">
       <table>
          <thead>
@@ -103,6 +126,7 @@
          </tbody>
       </table>
    </section>
+   </div>
 </div>
 </body>
 </html>

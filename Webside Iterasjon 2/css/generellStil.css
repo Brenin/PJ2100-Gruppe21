@@ -1,3 +1,7 @@
+/*=================================
+	Globale egenskaper for siden
+=================================*/
+
 *, body {
 	margin: 0;
 	padding: 0;
@@ -5,42 +9,22 @@
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-.tableHeader {
-	background-color: #d3d4cd;
-}
-
-.active {
-	background-color: #e7e7e1;
-	width: 5rem;
-}
-
-.danger {
-	background-color: #FA8072;
-}
-
-.success {
-	background-color: #90EE90;
-}
-
+/*=================================
+	Container som fyller siden
+=================================*/
 .container {
-	//MIDTSTILL DENNE
+	position: relative;
+	width: 100%;
+	top: 53px;
+	z-index: 0.8;
 }
 
-#kalender {
-
+/*=================================
+	Wrapper som sentrerer innhold
+=================================*/
+.wrapper {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
 }
-
-th {
-	background-color: #e7e7e1;
-	border-radius: 5px;
-}
-
-td {
-  width: 10rem;
-  height: 2rem;
-  border: 1px solid #fdfef8;
-  text-align: center;
-  border-radius: 5px;
-
-}
-
+	

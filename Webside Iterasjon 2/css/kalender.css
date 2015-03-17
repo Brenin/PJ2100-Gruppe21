@@ -1,0 +1,45 @@
+/*=================================
+	Egenskaper for tabellen
+=================================*/
+th {
+	background-color: #e7e7e1;
+	border-radius: 5px;
+}
+
+td {
+  width: 10rem;
+  height: 2rem;
+  border: 1px solid #fdfef8;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.tableHeader {
+	background-color: #d3d4cd;
+}
+
+/*=================================
+	Egenskaper for cellene i tabellen
+=================================*/
+.active {
+	background-color: #e7e7e1;
+	width: 5rem;
+}
+
+.active:hover {
+	border: 1px solid #ccc;
+}
+.success {
+	background-color: #90EE90;
+	-webkit-transition: all 0.2s ease;
+			transition: all 0.2s ease;
+}
+
+.success:hover {
+	background-color: #86e486;
+	border: 1px solid #bbb;
+}
+
+.danger {
+	color: #aaa;
+}

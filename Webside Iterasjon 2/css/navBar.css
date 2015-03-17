@@ -1,1 +1,123 @@
-//Navigasjonsbar til side 2, 3, 4 og 5 - login, personerOgProsjektor, datoOgTid
+/*=================================
+	Container for menyen
+=================================*/
+section.statiskMeny {
+	width: auto;
+	background-color: rgba(253, 254, 248);
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+
+/*=================================
+	Wrapper for å strukturere bilde og tekst i menyen
+=================================*/
+div.navBar {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navBar a, .navBar img, .navBar li {
+	display: inline-block;
+	float: left;
+	top: 13px;
+}
+
+/*=================================
+	Egenskaper for innholdet i menyen
+=================================*/
+img.logo {
+	float: left;
+	margin-top: 10px;
+	transition: transform 0.1s ease;
+}
+
+img.logo:hover {
+	-webkit-transform: rotate(360deg);
+			transform: rotate(360deg);
+}
+/*=================================
+	Egenskaper for linker
+=================================*/
+a {
+	float: left;
+	text-decoration: none;
+	color: #222;
+	transition: color 0.1s ease-in;
+	margin-left: 20px;
+	margin-top: 1rem;
+}
+
+a:link {
+    color: #222;
+}
+
+a:visited {
+    color: #222;
+}
+
+a:hover {
+    color: #000;
+}
+
+a:active {
+    color: #0000FF;
+}
+
+.loginFarge {
+	padding: 5px;
+	-webkit-transition: border-bottom 0.3s ease;
+			transition: border-bottom 0.3s ease;
+	border: 3px solid rgba(42,210,168, 0);
+	border-radius: 5px;
+}
+
+.loginFarge:hover {
+	border-bottom: 3px solid rgba(42,210,168, 0.6);
+}
+
+.sokFarge {
+	padding: 5px;
+	-webkit-transition: border-bottom 0.3s ease;
+			transition: border-bottom 0.3s ease;
+	border: 3px solid rgba(255, 91, 89, 0);
+	border-radius: 5px;
+}
+
+.sokFarge:hover {
+	border-bottom: 3px solid rgba(255, 91, 89, 0.6);
+}
+
+.kalenderFarge {
+	padding: 5px;
+	-webkit-transition: border-bottom 0.3s ease;
+			transition: border-bottom 0.3s ease;
+	border: 3px solid rgba(0, 183, 240, 0);
+	border-radius: 5px;
+}
+
+.kalenderFarge:hover {
+	border-bottom: 3px solid rgba(0, 183, 240, 0.6);
+}
+
+.ferdigFarge {
+	padding: 5px;
+	-webkit-transition: border-bottom 0.3s ease;
+			transition: border-bottom 0.3s ease;
+	border: 3px solid rgba(255, 215, 108, 0);
+	border-radius: 5px;
+}
+
+.ferdigFarge:hover {
+	border-bottom: 3px solid rgba(255, 215, 108, 0.6);
+}
+/*==========================================
+	Egenskaper for horisontal linje
+==========================================*/
+hr { 
+	height: 2px;
+ 
+    border-top: 2px;
+    width: 100%;
+    -webkit-box-shadow: 0px 1px 2px #aaa;
+}
