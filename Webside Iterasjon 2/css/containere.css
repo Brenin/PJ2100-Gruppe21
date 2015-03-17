@@ -1,0 +1,18 @@
+.bokser {
+    width: 412px;
+    height: 356px;
+    font-family: Helvetica;
+    opacity: 1;
+    -moz-transition-property: opacity;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    transition-property: border;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    color: black;
+}
+
+.bokser:hover {
+    opacity: 0.5;
+    border: 3px solid black;
+}
