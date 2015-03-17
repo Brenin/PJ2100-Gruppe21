@@ -1,6 +1,12 @@
+login {
+    background-color: #ffd76c;
+    
+}
+
+
 #loginFelt {
     position: absolute;
-    margin: 300px 300px 700px 500px;
+    margin: 200px 100px 500px 500px;
     background-color: #ffd76c;
     border: 1px solid black;
     color: white;
@@ -15,10 +21,12 @@
 
 
 h1 {
-    font-size: 2em;
-    color: black;
-    margin-left: 15%;
-    margin-bottom: 10%;
+    font-size: 5em;
+    font-weight: bold;
+    color: #ff5b59;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    background-color: #ffd76c;
     
 }
 
@@ -31,24 +39,28 @@ input {
     -webkit-box-shadow: 
       inset 0 0 8px  rgba(0,1,0,0.1);
     padding: 5px 20px 5px 5px;
+    
+    
 }
 
 label {
     text-indent: 10px;
     color: black;
+    background-color: #ffd76c;
 }
 
 #innlogging {
     text-align: left;
+    background-color: #ffd76c;
 }
 
 #send {
     width: 400px;
-    height: 100px;
+    height: 140px;
     background-color: #ff5b59;
     opacity: 1;
-    margin-top: -130px;
-    margin-left: 40%;
+    margin-top: -180px;
+    margin-left: 50%;
     color: white;
     font-size: 3em;
     opacity: 1;
@@ -58,6 +70,10 @@ label {
     
 }
 
+form {
+    background-color: #ffd76c;
+}
+
 #send:hover {
     opacity: 0.5;
     background-color: #7EC59D;
@@ -65,8 +81,9 @@ label {
 
 #skoleMail {
      margin-top: 30px;
+    margin-left: 48px;
 }
 
 #passord {
-    margin-left: 40px;
+    margin-left: 90px;
 }

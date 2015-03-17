@@ -1,31 +1,52 @@
-<!--Side 2 -->
 <!DOCTYE html>
 <html>
-	<head>
-		<meta charset="utf-8">
+   <head>
+      <meta charset="utf-8">
 
-		<!--	STILARK		-->
-		<link rel="stylesheet" type="text/css" href="css/containere.css">
-		<link rel="stylesheet" type="text/css" href="css/index.css">
-		<link rel="stylesheet" type="text/css" href="css/kalender.css">
-		<link rel="stylesheet" type="text/css" href="css/login.css">
-		<link rel="stylesheet" type="text/css" href="css/navBar.css">
-		<link rel="stylesheet" type="text/css" href="css/personerOgProsjektor.css">
-		<link rel="stylesheet" type="text/css" href="css/reservasjonsbekreftelse.css">
+      <!--        STILARK     -->
+      <link rel="stylesheet" type="text/css" href="css/generellStil.css">
+      <link rel="stylesheet" type="text/css" href="css/bokser.css">
+      <link rel="stylesheet" type="text/css" href="css/index.css">
+      <link rel="stylesheet" type="text/css" href="css/kalender.css">
+      <link rel="stylesheet" type="text/css" href="css/login.css">
+      <link rel="stylesheet" type="text/css" href="css/navBar.css">
+      <link rel="stylesheet" type="text/css" href="css/personerOgProsjektor.css">
+      <link rel="stylesheet" type="text/css" href="css/reservasjonsbekreftelse.css">
 
-		<!--	FONTER		-->
-		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+      <!--        FONTER      -->
+      <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
 
-	</head>
+   </head>
 <body>
-    <section id="navbarLogin"></section>
-    
-    
+
+
+
+<!--      STATISK NAVIGASJONSBAR SOM INDIKERER HVILKET STEG I PROSESSEN MAN ER     -->
+<section class="statiskMeny">
+   <div class="navBar">
+      <img src="bilder/logo.jpg" class="logo"></img>
+
+
+
+      <!--        LINKER TIL HVER SIDE I PROSESSEN      -->
+      <ul class="topics">
+         <li class="kalender"><a href="login.html">Kalender</a></li>
+         <li><a href="sok.html" >Søk</a></li>
+         <li><a href="kalender.html">Ledige</a></li>
+         <li><a href="ferdig.html">Bekreftelse</a></li>
+      </ul>
+      <hr>
+   </div>
+</section>
+
+
+        
     <section id="login">
     
-    <div id="loginFelt">
+    <div id="loginFelt" class="container">
+        
         <div id="innlogging">
-            <h1>Logg inn for å reservere grupperom</h1>
+            <h1>LOGG INN</h1>
             <form action="loginPDO.php" method="post">
                 <label for="skoleMail">Student Epost</label>
                 <input type="text" id="skoleMail" placeholder="person@student.westerdals.no" name="brukernavn"><br><br>
@@ -33,12 +54,10 @@
                 <input type="text" id="passord" placeholder="Passord" name="password"><br>
                 <input type="submit" id="send" value="Logg inn" href="personerOgProsjektor.html" name="submit">
             
-            </form>        
+            </form>  
+            </div>
+        
+    
     
         </div>
-    </div>
-        
-    </section>
-
-</body>
-</html>
+        </section>
