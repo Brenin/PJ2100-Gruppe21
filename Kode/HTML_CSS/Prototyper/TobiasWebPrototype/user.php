@@ -1,6 +1,6 @@
 <?php
 
-include_once("loginPDO.php");
+include_once("connection.php");
 
 class User{
 
