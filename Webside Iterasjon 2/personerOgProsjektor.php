@@ -11,7 +11,7 @@ header ("Location: index.php");
 ?>
 
 <!-- Side 3 -->
-<!DOCTYE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
