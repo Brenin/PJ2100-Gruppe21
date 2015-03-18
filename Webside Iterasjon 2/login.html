@@ -5,13 +5,8 @@
 
       <!--        STILARK     -->
       <link rel="stylesheet" type="text/css" href="css/generellStil.css">
-      <link rel="stylesheet" type="text/css" href="css/bokser.css">
-      <link rel="stylesheet" type="text/css" href="css/index.css">
-      <link rel="stylesheet" type="text/css" href="css/kalender.css">
       <link rel="stylesheet" type="text/css" href="css/login.css">
       <link rel="stylesheet" type="text/css" href="css/navBar.css">
-      <link rel="stylesheet" type="text/css" href="css/personerOgProsjektor.css">
-      <link rel="stylesheet" type="text/css" href="css/reservasjonsbekreftelse.css">
 
       <!--        FONTER      -->
       <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
@@ -39,27 +34,22 @@
    </div>
 </section>
 
-
-        
-    <section id="login">
-    
-    <div id="loginFelt" class="container">
-        
-        <div id="innlogging">
-            <h1>LOGG INN</h1>
-            <form action="loginPDO.php" method="post">
-                <label for="skoleMail">Student Epost</label>
-                <input type="text" id="skoleMail" placeholder="person@student.westerdals.no" name="brukernavn"><br><br>
-                <label for="passord">Passord</label>
-                <input type="password" id="passord" placeholder="Passord" name="password"><br>
-                <input type="submit" id="send" value="Logg inn" href="personerOgProsjektor.html" name="submit">
+<section id="login">
+    <div class="container">
+        <div class="wrapper">
+            <div class="westerdalsBoks" id="loginToPage">
+                <h1>LOGG INN</h1>
+                <form action="loginPDO.php" method="post">
+                    <label for="skoleMail">Student Epost</label>
+                    <input type="text" id="skoleMail" placeholder="person@student.westerdals.no" name="brukernavn" class="valg"><br><br><br>
+                    <label for="passord">Passord</label>
+                    <input type="password" id="passord" placeholder="Passord" name="password" class="valg"><br>
+                    <input type="submit" id="send" value="LOGG INN" href="personerOgProsjektor.html" name="submit" class="videre">
             
-            </form>  
+                </form>
             </div>
-        
-    
-    
         </div>
-        </section>
-    
+    </div>
+</section>
+
 </html>
