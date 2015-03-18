@@ -35,12 +35,12 @@
 	width: 412px;
 	height: 356px;
 	background-color: #fdfef8;
-	border: 3px solid #000;
+	border-color: black;
 	-webkit-transition: all 0.3s ease;
 			transition: all 0.3s ease;		
 }
 
 .westerdalsBoks:hover {
-	border: 3px solid #f1f2eb;
+	border-color: yellow;
 	background-color: #f1f2eb;
 }
