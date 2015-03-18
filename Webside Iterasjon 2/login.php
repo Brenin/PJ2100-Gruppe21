@@ -60,7 +60,7 @@
         
         <div id="innlogging">
             <h1>LOGG INN</h1>
-            <form action="index.php" method="post">
+            <form action="index.html" method="post">
                 <label for="skoleMail">Student Epost</label>
                 <input type="text" id="skoleMail" placeholder="person@student.westerdals.no" name="user"><br><br>
                 <label for="passord">Passord</label>
