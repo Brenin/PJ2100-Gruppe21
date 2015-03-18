@@ -19,20 +19,33 @@
 <!--      STATISK NAVIGASJONSBAR SOM INDIKERER HVILKET STEG I PROSESSEN MAN ER     -->
 <section class="statiskMeny">
    <div class="navBar">
-      <img src="bilder/logo.jpg" class="logo"></img>
-
-
 
       <!--        LINKER TIL HVER SIDE I PROSESSEN      -->
       <ul class="topics">
-         <li class="kalender"><a href="login.html">Kalender</a></li>
-         <li><a href="sok.html" >Søk</a></li>
-         <li><a href="kalender.html">Ledige</a></li>
-         <li><a href="ferdig.html">Bekreftelse</a></li>
+         <li><img src="bilder/logo.jpg" class="logo"></img></li>
+         <li><a href="login.html" class="loginFarge">Login</a></li>
+         <li><a href="sok.html" class="sokFarge bleking">Søk</a></li>
+         <li><a href="kalender.html" class="kalenderFarge">Kalender</a></li>
+         <li><a href="ferdig.html" class="ferdigFarge">Bekreftelse</a></li>
+      </ul>
+      
+      <ul class="hoyreMeny">
+         <li> 
+         <?php 
+
+         session_start();
+         echo $_SESSION['user']; 
+
+         ?>
+         </li>
+         <li><a href="destroy.php">Log Ut</a></li>
+         <li><img src="bilder/spm.png"></img></li>
       </ul>
       <hr>
    </div>
 </section>
+
+
 
 <section id="login">
     <div class="container">

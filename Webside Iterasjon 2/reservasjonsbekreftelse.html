@@ -20,6 +20,37 @@
 	</head>
 <body>
 
+<!--      STATISK NAVIGASJONSBAR SOM INDIKERER HVILKET STEG I PROSESSEN MAN ER     -->
+<section class="statiskMeny">
+   <div class="navBar">
+
+      <!--        LINKER TIL HVER SIDE I PROSESSEN      -->
+      <ul class="topics">
+         <li><img src="bilder/logo.jpg" class="logo"></img></li>
+         <li><a href="login.html" class="loginFarge">Kalender</a></li>
+         <li><a href="sok.html" class="sokFarge">Søk</a></li>
+         <li><a href="kalender.html" class="kalenderFarge">Ledige</a></li>
+         <li><a href="ferdig.html" class="ferdigFarge">Bekreftelse</a></li>
+      </ul>
+      
+      <ul class="hoyreMeny">
+         <li> 
+         <?php 
+
+         session_start();
+         echo $_SESSION['user']; 
+
+         ?>
+         </li>
+         <li><a href="destroy.php">Log Ut</a></li>
+         <li><img src="bilder/spm.png"></img></li>
+      </ul>
+      <hr>
+   </div>
+</section>
+
+
+ <!--        BOKS MED BEKREFTELSE PÅ RESERVASJON AV GRUPPEROM     -->
 <div class="container" id="bekreftelsesLogo">
 	<div class="wrapper">
 		<div id="gronnBoks">
