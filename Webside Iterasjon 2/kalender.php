@@ -50,7 +50,6 @@ header ("Location: index.html");
          <li> 
          <?php 
 
-         session_start();
          echo $_SESSION['user']; 
 
          ?>
