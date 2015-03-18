@@ -23,7 +23,7 @@ class User{
 				$_SESSION['logged_in'] = "1";
 				header("Location: personerOgProsjektor.php");
 			} else {
-				header("Location: index.php");
+				header("Location: index.html");
 			}
 		}
 	}
