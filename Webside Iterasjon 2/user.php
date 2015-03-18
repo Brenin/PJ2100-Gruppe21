@@ -21,13 +21,10 @@ class User{
 			if($st->rowCount() == 1) {
 				session_start();
 				$_SESSION['logged_in'] = "1";
-				header("Location: romOversikt.php");
+				header("Location: personerOgProsjektor.html");
 			} else {
-				echo "Incorrect username or Password.";
+				header("Location: index.php");
 			}
-		}
-		else {
-			echo "Please enter username and password";
 		}
 	}
 
