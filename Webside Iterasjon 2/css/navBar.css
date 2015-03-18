@@ -111,6 +111,32 @@ a:active {
 .ferdigFarge:hover {
 	border-bottom: 3px solid rgba(255, 215, 108, 0.6);
 }
+
+
+/*==========================================
+	Egenskaper for "log ut" og "faq ?" knapper
+==========================================*/
+.hoyreMeny {
+	position: relative;
+	float: right;
+}
+
+.hoyreMeny a {
+	padding-top: 10px;
+	margin-right: 15px;
+}
+
+.hoyreMeny img {
+	padding-top: 3px;
+	padding-right: 15px;
+	-webkit-transition: all 0.1s linear;
+			transition: all 0.1s linear;
+}
+
+.hoyreMeny img:hover {
+	-webkit-transform: rotateY(360deg);
+			transform: rotateY(360deg);	
+}
 /*==========================================
 	Egenskaper for horisontal linje
 ==========================================*/
