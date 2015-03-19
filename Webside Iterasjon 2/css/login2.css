@@ -72,11 +72,7 @@ input.videre {
 
 input.videre:hover {
     opacity: 0.5;
-    width: 80%;
-    height: 30%;
-    position: absolute;
-    left: 10%;
-}
+    border: 3px solid black;
 
 h1, label {
     color: #ff5b59;
