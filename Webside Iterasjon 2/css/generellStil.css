@@ -1,7 +1,7 @@
 /*=================================
 	Globale egenskaper for siden
 =================================*/
-* body {
+*, body {
 	margin: 0;
 	padding: 0;
 	background-color: #fdfef8;
@@ -29,17 +29,9 @@
 			transform: translate(-50%);
 }
 
-.wrapperLogo:
+.wrapperLogo: 
     position: absolute;
 	margin-top: 0%;
-<<<<<<< 940b77a74db75a1152c9582423ff3faa2f44dec0
-	left: 25%;
-	-webkit-transform: translate(-50%);
-			transform: translate(-50%);
-
-
-.wrapperToBokser {
-=======
 	-webkit-transform: translate(-50%);
 			transform: translate(-50%);
     width: 40%;
@@ -47,7 +39,6 @@
 
 .wrapperToBokser {
     width: 60%;
->>>>>>> eb5673413665a20465bce7c1439d81cf1c8be15b
 	margin-top: 0%;
 	left: 50%;
 	-webkit-transform: translate(-50%);
