@@ -1,7 +1,7 @@
 /*=================================
 	Globale egenskaper for siden
 =================================*/
-*, body {
+* body {
 	margin: 0;
 	padding: 0;
 	background-color: #fdfef8;
@@ -29,6 +29,20 @@
 			transform: translate(-50%);
 }
 
+.wrapperLogo:
+    position: absolute;
+	margin-top: 0%;
+	left: 25%;
+	-webkit-transform: translate(-50%);
+			transform: translate(-50%);
+
+
+.wrapperToBokser {
+	margin-top: 0%;
+	left: 50%;
+	-webkit-transform: translate(-50%);
+			transform: translate(-50%);
+}
 /*=================================
 	Boks med egenskaper som på westerdals.no
 =================================*/

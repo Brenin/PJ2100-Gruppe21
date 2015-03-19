@@ -1,4 +1,3 @@
-<!--Forside-->
 <!DOCTYPE html>
 <html>
     
@@ -20,19 +19,24 @@
 <body>
     
 <section id="header">
-    <div id="logo">
-    <img id="westerdals" src="bilder/logo2.jpg" />
+    <div class="wrapperLogo">
+        <div id="logo">
+    <img id="westerdals" src="bilder/logoMedium.png" />
+            </div>
     </div>
 
 </section>    
 
 <section id="info">
-    
-    <div class="westerdalsBoks" id="infoOmBooking">
-        <h1>Book grupperom på CK32</h1>
-        <p>Velkommen til Booking av grupperom ved CK32. <br><br> Klikk på "Book grupperom nå" for å reservere et grupperom.</p>
+    <div class="wrapperToBokser">
+        <div id="boksene">
+        <div class="westerdalsBoks" id="infoOmBooking">
+        <h1>Book grupperom</h1>
+        <p>Velkommen til Booking av grupperom på CK32. <br><br> Klikk på "Book grupperom nå" for å reservere et grupperom.</p>
     </div>
-    <a href="login.php"><div class="westerdalsBoks" id="bookingFelt"><br>BOOK GRUPPEROM <br>NÅ</div></a>
+    <a href="login.html"><div class="westerdalsBoks" id="bookingFelt"><br>BOOK GRUPPEROM <br>NÅ</div></a>
+            </div>
+    </div>
 </section>
     
     <!-- FAQ-delen av siden. -->
@@ -110,10 +114,11 @@
 </section>
           <!-- Div som fungerer som en knapp til hoversiden for booking, da hele diven er wrappet i en link til index.html. -->
  <section id="bookingBoks">       
-        <div id="wrapper">
+        
+     <div class="wrapper">
           <div id="booking" class="westerdalsBoks">
-            <a href="login.php"><h1>Book grupperom nå!</h1></a>
-              <a href="login.php"><p>Trykk her for å booke grupperom.</p></a>
+            <a href="login.html"><h1>Book grupperom nå!</h1></a>
+              <a href="login.html"><p>Trykk her for å booke grupperom.</p></a>
           </div>
         </div>
         

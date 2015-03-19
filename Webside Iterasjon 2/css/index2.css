@@ -1,31 +1,32 @@
-<!-- Stilark for index siden -->
-#header {
-    width: 100%;
-    height: 300px;
-    margin-bottom: 100px;
+
+
+#logo {
+    height: 30px;
 }
 
-#westerdals {
-    height: 300px;
-    width: auto;
-    margin: 0 42%;
+.wrapperLogo {
+    margin-left: 40%;
+}
+
+#boksene {
+    margin-top: 300px;
+}
+
+.wrapperToBokser {
+    margin-left: 25%;
 }
 
 #infoOmBooking {
-   position: absolute;
-    left: 27%;
-    display: inline-block;
+    float: left;
     border: 3px solid black;
- 
+    margin-right: 2%;
 }
 
 
 #bookingFelt {
-    position: absolute;
-    right: 27%;
-    display: inline-block;
+    float: left;
     background-color: #ff5b59;
-    border-color: #ff5b59;
+    border: 3px solid #ff5b59;
     font-size: 3.5em;
     text-align: center;
     font-weight: 900;
@@ -38,7 +39,7 @@
 
 #bookingFelt:hover {
     opacity: 0.5;
-    border: 6px solid black;
+    border: 3px solid black;
     
 }
 
@@ -46,7 +47,7 @@
 
 /**/
 #faqSeksjon {
-    margin-top: 600px;
+    margin-top: 800px;
 }
 
 /*Gir hele innhldet på siden masse skrifttype og skriftstørrelse.*/
@@ -57,25 +58,21 @@
 }
 
 #infoOmBooking p {
-    position: absolute;
-    top: 35%;
-    font-size: 1.2em;
+    margin-top: 5%;
+    font-size: 1.8em;
     text-align: center;
     transition-property: all;
-    -webkit-transition-property: all 0s ease;
-    -moz-transition-property: all 0s ease;
+    -webkit-transition-property: all 0.3s ease;
+    -moz-transition-property: all 0.3s ease;
 }
 
 #infoOmBooking h1 {
-    position: absolute;
-    top: 10%;
-    left: 8%;
-    font-size: 2em;
-    font-weight: 100;
+    margin-top: 5%;
+    font-size: 2.4em;
     text-align: center;
      transition-property: all;
-    -webkit-transition-property: all 0s ease;
-    -moz-transition-property: all 0s ease;
+    -webkit-transition-property: all 0.3s ease;
+    -moz-transition-property: all 0.3s ease;
 }
 
 /*Ved hover på hele beskrivelseboksen endres p elementene sin bakgrunnsfarge. */
@@ -130,10 +127,10 @@
 /*Bookingelement wrappet med en link til forsiden for booking.
 Hele elementet blir somen knapp pga. linken til html index-siden.*/
 #booking {
+    margin-left: 0 auto;
     background-color: #00b7f0;
     text-align: center;
-    border-color: #00b7f0;
-    float: right;
+    border: 3px solid #00b7f0;
     opacity: 1;
     transition-property: all 0.3 ease;
 }
@@ -147,8 +144,6 @@ Hele elementet blir somen knapp pga. linken til html index-siden.*/
 
 /*Definerer posisjonen til section av siden, bookingBoks, og definerer dermed også boksen booking.*/
 #bookingBoks {
-    position: absolute;
-    left: 740px;
     margin-top: 40px;
 }
 
