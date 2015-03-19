@@ -28,6 +28,7 @@ header ("Location: index.html");
 
       <!--        FONTER      -->
       <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+      <link rel="shortcut icon" href="bilder/favicon.ico">
 
    </head>
 <body>
