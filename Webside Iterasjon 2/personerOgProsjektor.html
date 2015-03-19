@@ -14,6 +14,35 @@
    </head>
 <body>
 
+<!--      STATISK NAVIGASJONSBAR SOM INDIKERER HVILKET STEG I PROSESSEN MAN ER     -->
+<section class="statiskMeny">
+   <div class="navBar">
+
+      <!--        LINKER TIL HVER SIDE I PROSESSEN      -->
+      <ul class="topics">
+         <li><img src="bilder/logo.jpg" class="logo"></img></li>
+         <li><a href="login.html" class="loginFarge">Kalender</a></li>
+         <li><a href="sok.html" class="sokFarge">Søk</a></li>
+         <li><a href="kalender.html" class="kalenderFarge">Ledige</a></li>
+         <li><a href="ferdig.html" class="ferdigFarge">Bekreftelse</a></li>
+      </ul>
+      
+      <ul class="hoyreMeny">
+         <li> 
+         <?php 
+
+         session_start();
+         echo $_SESSION['user']; 
+
+         ?>
+         </li>
+         <li><a href="destroy.php">Log Ut</a></li>
+         <li><img src="bilder/spm.png"></img></li>
+      </ul>
+      <hr>
+   </div>
+</section>
+
 <!--		DIVER FOR Å SENTRERE INNHOLDET I BOKS		-->
 <div class="container">
 	<div class="wrapper">
@@ -21,24 +50,6 @@
 
 
 <<<<<<< Updated upstream
-<!--      STATISK NAVIGASJONSBAR SOM INDIKERER HVILKET STEG I PROSESSEN MAN ER     -->
-<section class="statiskMeny">
-   <div class="navBar">
-      <img src="bilder/logo.jpg" class="logo"></img>
-
-
-
-      <!--        LINKER TIL HVER SIDE I PROSESSEN      -->
-      <ul class="topics">
-         <li class="kalender"><a href="login.html">Kalender</a></li>
-         <li><a href="sok.html" >Søk</a></li>
-         <li><a href="kalender.html">Ledige</a></li>
-         <li><a href="ferdig.html">Bekreftelse</a></li>
-      </ul>
-      <hr>
-   </div>
-</section>
-    
     
     <!--        SØKEDELEN AV SIDEN      -->
 <section id="søk">
@@ -90,50 +101,8 @@
            
         </div>
 </section>
-    
-</html>
-=======
-<!--		BRUKER KAN VELGE EGENSKAPER TIL SØKET		-->
-		<div class="wrapper">
-			<h4>Hvor mange er det i gruppen?</h4>
-			<form>
-				<h4>
-				<!--		SETT INN PHP I FORMEN !!!		-->
-				<form action="" method="">
-				<select name="d" class="antallPersoner" tabindex="1">
-					<option value="2">2 Personer</option>
-					<option value="2">3 Personer</option>
-					<option value="2">4 Personer</option>
-					</select>
-				</h4>
-			</form>
-
-
-			<h4>Trenger dere prosjektor?</h4>
-			<form>
-				<h4>
-					<select name="d" class="prosjektor" tabindex="1">
-						<option value="ja">Ja</option>
-						<option value="nei">Nei</option>
-					</select>
-					</form>
-				</h4>
-				<br><br>
-				<input type="submit" name="Søk" value="Sok" tabindex="1"/>
-			</form>
-			</div>
-		</div>
-	</div>
-</div>
-
 </body>
 </html>
-
-
-
-
-
-
 
 
 
