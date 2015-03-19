@@ -1,0 +1,193 @@
+#header {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+#westerdals {
+    height: 300px;
+    width: auto;
+    margin: 0 42%;
+}
+
+#infoOmBooking {
+   position: absolute;
+    left: 27%;
+    display: inline-block;
+    border: 3px solid black;
+ 
+}
+
+
+#bookingFelt {
+    position: absolute;
+    right: 27%;
+    display: inline-block;
+    background-color: #ff5b59;
+    border-color: #ff5b59;
+    font-size: 3.5em;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    opacity: 1;
+    transition-property: all 0.3s ease;
+    -webkit-transition-property: all 0.3s ease;
+    -moz-transition-property: all 0.3s ease;
+}
+
+#bookingFelt:hover {
+    opacity: 0.5;
+    border: 6px solid black;
+    
+}
+
+/*CSS for FAQ-delen av siden.*/
+
+/**/
+#faqSeksjon {
+    margin-top: 600px;
+}
+
+/*Gir hele innhldet på siden masse skrifttype og skriftstørrelse.*/
+
+#faq {
+    font-size: 1.5em;
+    
+}
+
+#infoOmBooking p {
+    position: absolute;
+    top: 35%;
+    font-size: 1.2em;
+    text-align: center;
+    transition-property: all;
+    -webkit-transition-property: all 0s ease;
+    -moz-transition-property: all 0s ease;
+}
+
+#infoOmBooking h1 {
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+     transition-property: all;
+    -webkit-transition-property: all 0s ease;
+    -moz-transition-property: all 0s ease;
+}
+
+/*Ved hover på hele beskrivelseboksen endres p elementene sin bakgrunnsfarge. */
+#infoOmBooking:hover > p {
+    background-color: #f1f2eb;
+}
+
+/*Ved hover på hele beskrivelseboksen endres h1 elementet sin bakgrunnsfarge. */
+#infoOmBooking:hover > h1 {
+    background-color: #f1f2eb;
+}
+
+
+
+/*Styler spørsmålsboksene. Margin à la Westerdals innrykk, fra venstre og høyre.*/
+.spørsmål  {
+  background: #2ad2a8;
+  color: black;
+  padding: 20px;
+  border: 3px solid white;
+  text-indent: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+     -moz-transition-property: opacity;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    transition-property: border;
+    -webkit-transition-property: border;
+    -moz-transition-property: border;
+}
+
+.spørsmål:hover {
+    border: 6px solid white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/*Styler svarsboksene. Margin à la Westerdals innrykk, fra venstre og høyre.*/
+.svar {
+    color: black;
+  display: none;
+  background: white;
+  border: 3px solid white;
+  padding: 50px;
+  background-color: #00b7f0;
+  margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+/*Bookingelement wrappet med en link til forsiden for booking.
+Hele elementet blir somen knapp pga. linken til html index-siden.*/
+#booking {
+    background-color: #00b7f0;
+    text-align: center;
+    border-color: #00b7f0;
+    float: right;
+    opacity: 1;
+    transition-property: all 0.3 ease;
+}
+
+/* Definerer hoverattributtene til booking-boksen. Tydeliggjør at boksen fungerer som en knapp til login.html. */
+#booking:hover {
+    border: 3px solid black;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/*Definerer posisjonen til section av siden, bookingBoks, og definerer dermed også boksen booking.*/
+#bookingBoks {
+    position: absolute;
+    left: 740px;
+    margin-top: 40px;
+}
+
+#booking h1 {
+    background-color: #00b7f0;
+    font-size: 3em;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#booking p {
+    background-color: #00b7f0;
+    font-size: 2em;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+
+#beskrivelse h1 {
+    margin-left: 5%;
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+
+
+
+/*Første bokstav i hvert spørsmålsklasseelement får endrede egenskaper.*/
+.spørsmål::first-letter { 
+    font-size: 120%;
+    font-weight: bold;
+}
+
+/*Første bokstav i hvert svarsklasseelement får endrede egenskaper.*/
+.svar::first-letter { 
+    font-size: 120%;
+    font-weight: bold;
+}
