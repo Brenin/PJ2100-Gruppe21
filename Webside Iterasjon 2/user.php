@@ -21,7 +21,7 @@ class User{
 			if($st->rowCount() == 1) {
 				session_start();
 				$_SESSION['logged_in'] = "1";
-				$_SESSION['user'];
+				$_SESSION['username'] = $username;
 				header("Location: personerOgProsjektor.php");
 			} else {
 				header("Location: index.html");
