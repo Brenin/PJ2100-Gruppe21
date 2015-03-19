@@ -65,11 +65,15 @@ header ("Location: index.html");
 <div class="container">
    <div class="wrapper">
 
+<!--     -->
    <div class="well">
-      <div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
-  <input class="span2" size="16" type="text" value="12-02-2012">
-  <span class="add-on"><i class="icon-th"></i></span>
-</div>
+
+      <form action="#" method="post">
+       <h4 id="datoFarge">Dato <input type="text" placeholder="01-02-15"/>
+       <input type="submit" value="Søk"/></h4> 
+
+</form>
+
    </div>
 
 <!--        EGENSKAPER FOR KALENDERFUNKSJONEN        -->
@@ -154,7 +158,18 @@ header ("Location: index.html");
             </tr>
          </tbody>
       </table>
+      <!--     -->
+      <div id="hoyre">
+         <form action="#" method="post">
+         <h4 id="stor">
+         <a href="reservesjonsbekreftelse.html">
+            <input type="submit" value="Reserver" id="gronn"/>
+            </a>
+            </h4>
+         </form>
+         </div>
    </section>
+   </div>
    </div>
 </div>
 </body>
