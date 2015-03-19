@@ -52,7 +52,7 @@
         <div class="wrapper">
             <div class="westerdalsBoks" id="loginToPage">
                 <h1>LOGG INN</h1>
-                <form action="loginPDO.php" method="post">
+                <form action="login.php" method="post">
                     <label for="skoleMail">Student Epost</label>
                     <input type="text" id="skoleMail" placeholder="person@student.westerdals.no" name="brukernavn" class="valg"><br><br><br>
                     <label for="passord">Passord</label>
