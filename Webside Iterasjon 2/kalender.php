@@ -40,10 +40,10 @@ header ("Location: index.html");
       <!--        LINKER TIL HVER SIDE I PROSESSEN      -->
       <ul class="topics">
          <li><img src="bilder/logo.jpg" class="logo"></img></li>
-         <li><a href="login.html" class="loginFarge">Kalender</a></li>
-         <li><a href="sok.html" class="sokFarge">Søk</a></li>
-         <li><a href="kalender.html" class="kalenderFarge">Ledige</a></li>
-         <li><a href="ferdig.html" class="ferdigFarge">Bekreftelse</a></li>
+         <li><a href="kalender.php" class="loginFarge">Kalender</a></li>
+         <li><a href="" class="sokFarge">Søk</a></li>
+         <li><a href="" class="kalenderFarge">Ledige</a></li>
+         <li><a href="reservasjonsbekreftelse.php" class="ferdigFarge">Bekreftelse</a></li>
       </ul>
       
       <ul class="hoyreMeny">
