@@ -54,7 +54,7 @@ header ("Location: index.html");
 
          ?>
          </li></a>
-         <li><a href="destroy.php">Log Ut</a></li>
+         <li><a href="destroy.php">Logg Ut</a></li>
          <li><img src="bilder/spm.png"></img></li>
       </ul>
       <hr>
