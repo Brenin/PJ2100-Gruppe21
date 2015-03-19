@@ -54,7 +54,7 @@
                 <h1>LOGG INN</h1>
                 <form action="login.php" method="post">
                     <label for="skoleMail">Student Epost</label>
-                    <input type="text" id="skoleMail" placeholder="person@student.westerdals.no" name="brukernavn" class="valg"><br><br><br>
+                    <input type="text" id="skoleMail" placeholder="person@student.westerdals.no" name="username" class="valg"><br><br><br>
                     <label for="passord">Passord</label>
                     <input type="password" id="passord" placeholder="Passord" name="pass" class="valg"><br>
                     <input type="submit" id="send" value="LOGG INN" href="personerOgProsjektor.php" name="submit" class="videre">
