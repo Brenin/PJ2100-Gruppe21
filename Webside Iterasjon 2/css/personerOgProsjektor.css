@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /*Stilark for siden personerOgProsjektor.php*/
 
 
@@ -123,3 +124,16 @@ label {
     background-color: #ff5b59;
     cursor: pointer;
 }
+=======
+.select {
+  position: absolute;
+  width: 158px;
+  height: 21px;
+  padding: 0 24px 0 8px;
+  color: #fff;
+  font: 12px/21px arial,sans-serif;
+  background: url(select.png) no-repeat;
+  overflow: hidden;
+
+
+>>>>>>> Stashed changes
