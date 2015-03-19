@@ -1,0 +1,89 @@
+<!DOCTYE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+
+      <!--        STILARK     -->
+      <link rel="stylesheet" type="text/css" href="css/navBar.css">
+      <link rel="stylesheet" type="text/css" href="css/generellStil.css">
+      <link rel="stylesheet" type="text/css" href="css/personerOgProsjektor3.css">
+
+      <!--        FONTER      -->
+      <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+
+   </head>
+<body>
+
+
+
+<!--      STATISK NAVIGASJONSBAR SOM INDIKERER HVILKET STEG I PROSESSEN MAN ER     -->
+<section class="statiskMeny">
+   <div class="navBar">
+      <img src="bilder/logo.jpg" class="logo"></img>
+
+
+
+      <!--        LINKER TIL HVER SIDE I PROSESSEN      -->
+      <ul class="topics">
+         <li class="kalender"><a href="login.html">Kalender</a></li>
+         <li><a href="sok.html" >Søk</a></li>
+         <li><a href="kalender.html">Ledige</a></li>
+         <li><a href="ferdig.html">Bekreftelse</a></li>
+      </ul>
+      <hr>
+   </div>
+</section>
+    
+    
+    <!--        SØKEDELEN AV SIDEN      -->
+<section id="søk">
+    <div class="container">
+                
+                <!--        BOKS MED BESKRIVELSE AV SIDEN      -->
+                <div class="westerdalsBoks" id="beskrivelse">
+                    <h1>Velg romtype og søk</h1>
+                    <p>
+                        Velg hvor mange som skal bruke grupperommet, <br> i tillegg til om dere trenger prosjektor, og trykk "Velg."  
+                        <br><br>
+                        Etter valget, trykk på "Søk!" for å se oversikt over ledige rom.
+                    </p>                           
+                </div>
+        
+            <!--        FORM SOM SENDER DATA TIL PHP-DATABASEN OG GIR BRUKER MULIGHET FOR Å VELGE TYPE ROM OG MED/UTEN PROSJEKTOR      -->
+            <form action="" method="">
+                <div class="westerdalsBoks" id="personerOgProsjektor">
+                    
+                    <!--        SEKSJON MED VALG AV ANTALL PERSONER I FORM AV RADIO INPUTS      -->
+                    <section class="valgAntall">
+                        <label for="size" id="label1">Hvor mange er dere?</label>
+                        <br>
+                        <input type="radio" name="size" class="personer" value="2" />To
+                        <br>
+                        <input type="radio" name="size" class="personer" value="3" />Tre
+                        <br>
+                        <input type="radio" name="size" class="personer" value="4" />Fire
+            
+                    </section>
+                    
+                    <!--        SEKSJON MED VALG AV PROSJEKTOR I FORM AV RADIO INPUTS      -->
+                    <section class="valgProsjektor">
+                        <label for="equipment" id="label2">Trenger dere prosjektor?</label>
+                        <br><p></p>
+                        <input type="radio" name="size" class="equipment" value="ja" />Ja
+                        <br>
+                        <input type="radio" name="size" class="equipment" value="nei" />Nei
+                        <br>
+                        <input type="submit" value="Velg" name="submit" id="velger" />
+                 </section>
+                </div>
+            </form>
+                <!--        VIDERE-KNAPP SOM LEDER TIL NESTE SIDE (KALENDER.HTML)      -->
+                <div id="knapp">
+                    <a href="kalender.html"><button name="Søk!" name="submit" id="videre" >Søk!</button></a>
+                </div>
+                
+           
+        </div>
+</section>
+    
+</html>
