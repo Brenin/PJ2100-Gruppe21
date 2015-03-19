@@ -23,7 +23,7 @@
 =================================*/
 .wrapper {
 	position: absolute;
-	margin-top: 10%;
+	margin-top: 0%;
 	left: 50%;
 	-webkit-transform: translate(-50%);
 			transform: translate(-50%);
@@ -35,7 +35,8 @@
 .westerdalsBoks {
 	width: 412px;
 	height: 356px;
-	background-color: #fdfef8;
+	background-color: #fdfef8;  ffd76c
+
 	border: 3px solid #000;
 	-webkit-transition: all 0.3s ease;
 			transition: all 0.3s ease;
@@ -46,11 +47,22 @@
 	border: 3px solid #f1f2eb;
 }
 
+.westerdalsBoksGul {
+	width: 412px;
+	height: 356px;
+	background-color: #ffd76c;
+
+	border: 3px solid #ffd76c;
+	-webkit-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+}
+
 .well {
-  min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
-  background-color: #f1f2eb;
+	margin: 64px 0px 64px 0px;
+  	min-height: 20px;
+  	padding: 19px;
+  	margin-bottom: 20px;
+  	background-color: #f1f2eb;
   border: 1px solid #e3e3e3;
   -webkit-border-radius: 4px;
   	 -moz-border-radius: 4px;
@@ -78,7 +90,7 @@
 	width: 412px;
 	height: 356px;
 	background-color: #63caa6;
-	border: 3px solid #bbb;
+	border: 3px solid #63caa6;
 	-webkit-transition: all 0.3s ease;
 			transition: all 0.3s ease;
 }
@@ -91,35 +103,83 @@
 
 }
 
-p {
+p#suksessP {
 	margin: 64px 64px 0px 64px;
 	background-color: #63caa6;
 	font-size: 4em;
 	text-decoration: underline;
 }
 
-h5 {
+h2 {
 	margin: 0px 64px 0px 64px;
 	background-color: #63caa6;
-	font-size: 1em;
-}
-
-h5#linje {
+	font-size: 4em;
+	text-align: left;
+	background: #63caa6;
+	font-weight: 400;
 	background-color: #63caa6;
 	margin-top: 20px;
 	text-decoration: underline;
 }
 
+h5 {
+	background-color: #63caa6;
+	font-size: 1em;
+	margin-left: 65px;
+}
+
+
 #hoyrePilOgTekst {
 	background-color: #63caa6;
-	margin-top: 70px;
+	margin-top: 120px;
 	margin-left: 300px;
 }
 
 #hoyrePilOgTekst img {
 	margin-left: 25px;
+	background: #63caa6;
 }
 
 #pil {
 	background-color: #63caa6;
 }
+
+input[type=text] {
+	padding:5px; 
+	border:2px 
+	solid #ccc; 
+	-webkit-border-radius: 5px;
+    		border-radius: 5px;
+}
+input[type=text]:focus {
+	border-color:#333; 
+}
+
+
+#hoyde {
+	margin-top: 10%;
+}
+input[type=submit] {
+	padding:5px 15px;
+	background:#ccc; 
+	border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+form, h4#datoFarge {
+	background-color: #f1f2eb;
+}
+
+#hoyre {
+	float: right;
+	margin: 30px 0px 0px 0px
+
+}
+
+#gronn {
+	border: 1px solid #bbb;
+}
+
+
