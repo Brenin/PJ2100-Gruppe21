@@ -1,5 +1,17 @@
+<?PHP
+
+session_start();
+
+if (!(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] != '')) {
+
+header ("Location: index.html");
+
+}
+
+?>
+
 <!-- Side 5 -->
-<!DOCTYE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -30,14 +42,13 @@
       </ul>
       
       <ul class="hoyreMeny">
-         <li> 
+         <li><a href="">
          <?php 
 
-         session_start();
-         echo $_SESSION['user']; 
+         echo $_SESSION['username'];
 
          ?>
-         </li>
+         </li></a>
          <li><a href="destroy.php">Log Ut</a></li>
          <li><img src="bilder/spm.png"></img></li>
       </ul>
