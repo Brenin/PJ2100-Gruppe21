@@ -1,0 +1,86 @@
+#loginToPage {
+    background-color: #ffd76c;
+    border-color: #ffd76c;
+    transition-property: all 0.3s ease;
+}
+
+
+
+#loginToPage form, h1, label {
+    background-color: #ffd76c;
+}
+
+loginToPage.westerdalsBoks {
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+label {
+    position: absolute;
+    margin-left: 5%; 
+    padding: 3% 3% 3% 0;
+}
+
+input.valg {
+    padding: 3% 3% 3% 3%;
+    width: 60%;
+    border-radius: 5px;
+    box-shadow: 
+      inset 0 0 8px  rgba(0,1,0,0.1);
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,1,0,0.1);
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,1,0,0.1);
+    position: absolute;
+    right: 5%;
+    margin-bottom: 10%;
+    
+}
+
+input.valg, label {
+    font-size: 1em;
+}
+
+input.videre {
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    bottom: 2%;
+    padding: 7% 5% 7% 5%;
+    border-radius: 5px;
+    box-shadow: 
+      inset 0 0 8px  rgba(0,1,0,0.1);
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,1,0,0.1);
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,1,0,0.1);
+    background-color: #ff5b59;
+    color: white;
+    opacity: 1;
+    font-size: 2em;
+    font-weight: bold;
+    transition-property: all 0.3 ease;
+    
+}
+
+input.videre:hover {
+    opacity: 0.5;
+    width: 80%;
+    height: 30%;
+    position: absolute;
+    left: 10%;
+}
+
+h1, label {
+    color: #ff5b59;
+    
+}
+
+
