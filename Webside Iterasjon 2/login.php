@@ -39,7 +39,7 @@
 
       <!--        LINKER TIL HVER SIDE I PROSESSEN      -->
       <ul class="topics">
-         <li class="kalender"><a href="login.html">Kalender</a></li>
+         <li class="kalender"><a href="kalender.php">Kalender</a></li>
          <li><a href="">Søk</a></li>
          <li><a href="kalender.php">Ledige</a></li>
          <li><a href="reservasjonsbekreftelse.php">Bekreftelse</a></li>

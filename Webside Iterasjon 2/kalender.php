@@ -43,7 +43,7 @@ header ("Location: index.html");
          <li><img src="bilder/logo.jpg" class="logo"></img></li>
          <li><a href="kalender.php" class="loginFarge">Kalender</a></li>
          <li><a href="" class="sokFarge">Søk</a></li>
-         <li><a href="" class="kalenderFarge">Ledige</a></li>
+         <li><a href="kalender.php" class="kalenderFarge">Ledige</a></li>
          <li><a href="reservasjonsbekreftelse.php" class="ferdigFarge">Bekreftelse</a></li>
       </ul>
       
@@ -163,7 +163,7 @@ header ("Location: index.html");
       <div id="hoyre">
          <form action="#" method="post">
          <h4 id="stor">
-         <a href="reservesjonsbekreftelse.html">
+         <a href="reservasjonsbekreftelse.php">
             <input type="submit" value="Reserver" id="gronn"/>
             </a>
             </h4>
