@@ -3,12 +3,12 @@
   include_once("user.php");
 
   if (isset($_POST["submit"])) {
-    $Email = $_POST["user"];
-    $Password = $_POST["pass"];
+    $username = $_POST["username"];
+    $password = $_POST["pass"];
 
     $object = new User();
-    $object->oliibe14($Email, $Password);
-  }
+    $object->oliibe14($username, $password);
+    }
 ?>
 
 <!DOCTYPE html>
@@ -18,13 +18,8 @@
 
       <!--        STILARK     -->
       <link rel="stylesheet" type="text/css" href="css/generellStil.css">
-      <link rel="stylesheet" type="text/css" href="css/bokser.css">
-      <link rel="stylesheet" type="text/css" href="css/index.css">
-      <link rel="stylesheet" type="text/css" href="css/kalender.css">
-      <link rel="stylesheet" type="text/css" href="css/login.css">
+      <link rel="stylesheet" type="text/css" href="css/login2.css">
       <link rel="stylesheet" type="text/css" href="css/navBar.css">
-      <link rel="stylesheet" type="text/css" href="css/personerOgProsjektor.css">
-      <link rel="stylesheet" type="text/css" href="css/reservasjonsbekreftelse.css">
 
       <!--        FONTER      -->
       <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
@@ -43,34 +38,31 @@
 
       <!--        LINKER TIL HVER SIDE I PROSESSEN      -->
       <ul class="topics">
-         <li class="kalender"><a href="kalender.php">Kalender</a></li>
+         <li class="kalender"><a href="login.html">Kalender</a></li>
          <li><a href="sok.html" >Søk</a></li>
-         <li><a href="kalender.php">Ledige</a></li>
+         <li><a href="kalender.html">Ledige</a></li>
          <li><a href="ferdig.html">Bekreftelse</a></li>
       </ul>
       <hr>
    </div>
 </section>
 
-
-        
-    <section id="login">
-    
-    <div id="loginFelt" class="container">
-        
-        <div id="innlogging">
-            <h1>LOGG INN</h1>
-            <form action="login.php" method="post">
-                <label for="skoleMail">Student Epost</label>
-                <input type="text" id="skoleMail" placeholder="person@student.westerdals.no" name="user"><br><br>
-                <label for="passord">Passord</label>
-                <input type="password" id="passord" placeholder="Passord" name="pass"><br>
-                <input type="submit" id="send" value="Logg inn" href="personerOgProsjektor.html" name="submit">
+<section id="login">
+    <div class="container">
+        <div class="wrapper">
+            <div class="westerdalsBoks" id="loginToPage">
+                <h1>LOGG INN</h1>
+                <form action="loginPDO.php" method="post">
+                    <label for="skoleMail">Student Epost</label>
+                    <input type="text" id="skoleMail" placeholder="person@student.westerdals.no" name="brukernavn" class="valg"><br><br><br>
+                    <label for="passord">Passord</label>
+                    <input type="password" id="passord" placeholder="Passord" name="pass" class="valg"><br>
+                    <input type="submit" id="send" value="LOGG INN" href="personerOgProsjektor.php" name="submit" class="videre">
             
-            </form>  
+                </form>
             </div>
-        
-    
-    
         </div>
-        </section>
+    </div>
+</section>
+
+</html>

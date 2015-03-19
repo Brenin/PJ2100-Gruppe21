@@ -11,11 +11,11 @@ class User{
 		$this->db = $this->db->dbConnect();
 	}
 
-	public function oliibe14($Email, $Password) {
-		if(!empty($Email) && !empty($Password)) {
+	public function oliibe14($username, $password) {
+		if(!empty($username) && !empty($password)) {
 			$st = $this->db->prepare("select * from user where Email=? and Password=?");
-			$st->bindParam(1, $Email);
-			$st->bindParam(2, $Password);
+			$st->bindParam(1, $username);
+			$st->bindParam(2, $password);
 			$st->execute();
 
 			if($st->rowCount() == 1) {

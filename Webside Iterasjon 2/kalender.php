@@ -47,13 +47,13 @@ header ("Location: index.html");
       </ul>
       
       <ul class="hoyreMeny">
-         <li> 
+         <li> <a href="">
          <?php 
 
-         echo $_SESSION['user']; 
+         echo $_SESSION['username'];
 
          ?>
-         </li>
+         </li></a>
          <li><a href="destroy.php">Log Ut</a></li>
          <li><img src="bilder/spm.png"></img></li>
       </ul>
@@ -64,6 +64,13 @@ header ("Location: index.html");
 <!--        "CONTAINER" FOR SAMMKJØRT STRUKTUR IGJENNOM SIDENE      -->
 <div class="container">
    <div class="wrapper">
+
+   <div class="well">
+      <div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+  <input class="span2" size="16" type="text" value="12-02-2012">
+  <span class="add-on"><i class="icon-th"></i></span>
+</div>
+   </div>
 
 <!--        EGENSKAPER FOR KALENDERFUNKSJONEN        -->
    <section id="kalender">

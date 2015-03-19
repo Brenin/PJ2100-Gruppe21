@@ -47,14 +47,13 @@ header ("Location: index.html");
       </ul>
       
       <ul class="hoyreMeny">
-         <li> 
+         <li> <a href="">
          <?php 
 
-         session_start();
-         echo $_SESSION['user']; 
+         echo $_SESSION['username'];
 
          ?>
-         </li>
+         </li></a>
          <li><a href="destroy.php">Log Ut</a></li>
          <li><img src="bilder/spm.png"></img></li>
       </ul>
