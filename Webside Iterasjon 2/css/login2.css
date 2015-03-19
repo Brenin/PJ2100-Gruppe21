@@ -1,7 +1,10 @@
+
 #loginToPage {
     background-color: #ffd76c;
     border-color: #ffd76c;
-    transition-property: all 0.3s ease;
+    float: left;
+    border: 3px solid #ffd76c;
+    margin-top: 20%;
 }
 
 
@@ -20,12 +23,14 @@ h1 {
     margin-bottom: 5%;
     font-weight: bold;
     font-size: 3em;
+    color: #ff5b59;
 }
 
 label {
     position: absolute;
     margin-left: 5%; 
     padding: 3% 3% 3% 0;
+    color: #ff5b59;
 }
 
 input.valg {
@@ -74,9 +79,6 @@ input.videre:hover {
     opacity: 0.5;
     border: 3px solid black;
 
-h1, label {
-    color: #ff5b59;
-    
-}
+
 
 
