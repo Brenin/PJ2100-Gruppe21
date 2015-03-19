@@ -60,28 +60,30 @@
            <tr class="well">
                <td class="active">301</td>
                <td>
-               <?php
+                  <?php
 
-$db = new PDO('mysql:host=localhost;dbname=westerdals', 'root', '');
-$sql = 'SELECT * from rooms where Room_ID="81" and Value="0" and Date="2015-03-22" and Time="09-12"';
+                  $db = new PDO('mysql:host=localhost;dbname=westerdals', 'root', '');
+                  $sql = 'SELECT * from rooms where Room_ID="81" and Value="0" 
+                           and Date="2015-03-22" and Time="09-12"';
 
-foreach ($db->query($sql) as $row) {
-        Echo "<html>"; 
-        Echo "<div class=div>Ledig</div>";
-}
-?>
+                     foreach ($db->query($sql) as $row) {
+                        Echo "<html>"; 
+                        Echo "<div class=div>Ledig</div>";
+                     }
+                  ?>
        
                </td>
                <td>
                   <?php
-$db = new PDO('mysql:host=localhost;dbname=westerdals', 'root', '');
-$sql = 'SELECT * from rooms where Room_ID="81" and Value="0" and Date="2015-03-22" and Time="12-15"';
+                  $db = new PDO('mysql:host=localhost;dbname=westerdals', 'root', '');
+                  $sql = 'SELECT * from rooms where Room_ID="81" and Value="0" 
+                           and Date="2015-03-22" and Time="12-15"';
 
-foreach ($db->query($sql) as $row) {
-        Echo "<html>"; 
-        Echo "<div class=div>Ledig</div>";
-}
-?>
+                     foreach ($db->query($sql) as $row) {
+                        Echo "<html>"; 
+                        Echo "<div class=div>Ledig</div>";
+                     }
+                  ?>
                </td>
                <td class="danger">Optatt</td>
                <td class="danger">Optatt</td>
@@ -156,14 +158,16 @@ foreach ($db->query($sql) as $row) {
 <style>
 .div {
    width: 10rem;
-  height: 2rem;
-  border: 1px solid #fdfef8;
-  text-align: center;
-  border-radius: 5px;
-    background-color: #90EE90;
+   height: 2rem;
+   border: 1px solid #fdfef8;
+   text-align: center;
+   border-radius: 5px;
+   background-color: #90EE90;
    -webkit-transition: all 0.2s ease;
-         transition: all 0.2s ease;
+   transition: all 0.2s ease;
 }
-.success {
 
+.div:hover {
+   background-color: #86e486;
+   border: 1px solid #bbb;
 }
